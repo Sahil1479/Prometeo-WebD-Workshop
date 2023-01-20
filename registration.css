@@ -1,0 +1,30 @@
+#title {
+    text-align: center;
+}
+
+#course_table_container {
+    padding: 100px;
+}
+
+#course_table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#course_table td, #course_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#course_table tr:nth-child(even){background-color: #f2f2f2;}
+
+#course_table tr:hover {background-color: #ddd;}
+
+#course_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
