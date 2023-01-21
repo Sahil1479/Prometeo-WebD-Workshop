@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap");
+
+body {
+	font-family: "Dosis", "Roboto";
+}
+
+h1 {
+	height: 10vh;
+	line-height: 10vh;
+	margin: 0;
+	text-align: center;
+}
+
+.navLinks {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.navLinks > a,
+input {
+	color: #fff;
+	border: 2px solid #3f51b5;
+	font-family: "Dosis", "Roboto";
+	background-color: #3f51b5;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1rem;
+	border-radius: 2rem;
+	cursor: pointer;
+	padding: 0.5rem 1.5rem;
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.navLinks > a:hover,
+input:hover {
+	box-shadow: 3px 3px 0px rgb(158, 166, 214);
+	transform: translateY(-3px) translateX(-3px);
+}
+
+.addCourseForm {
+	margin-top: 5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.course-type > label,
+.course-name > label {
+	font-size: 1.2rem;
+}
+
+.course-type > select,
+.course-name > select {
+	width: 100%;
+	margin-top: 1rem;
+	font-size: 1.2rem;
+	font-family: "Dosis", "Roboto";
+	/* appearance: none; */
+	outline: 0;
+	cursor: pointer;
+	border: 1px solid black;
+	border-radius: 2rem;
+	padding: 0.5rem 1.5rem;
+}
+
+.course-name {
+	margin-top: 2rem;
+}
+
+.submit-form {
+	margin-top: 3rem;
+	display: flex;
+	justify-content: flex-end;
+}
